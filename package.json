@@ -1,0 +1,20 @@
+{
+  "name": "test-get-text-without-script",
+  "devDependencies": {
+    "mocha": "~2.0.1"
+  },
+  "testling": {
+    "browsers": [
+      "ie/7..latest",
+      "chrome/latest",
+      "firefox/latest",
+      "opera/latest",
+      "safari/latest",
+      "iphone/latest",
+      "ipad/latest",
+      "android-browser/latest"
+    ],
+    "harness": "mocha",
+    "files": "text.js"
+  }
+}
